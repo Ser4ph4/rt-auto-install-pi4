@@ -43,21 +43,6 @@ while true; do
     shift || break
 done
 
-#detecting architecture
-function DETECTARCH {
-if [ $(uname -m) != "x86_64" ]; then
-
-  echo "You are running ${RED}unsupported architecture${NORMAL}. Currently we support only x86_64"
-  echo "For more information see issue #66. Consider donating $ or Raspberry because I have nowhere to test"
-  echo "Alternatively you could share access to you Rpi, I could do testing there"
-  echo ""
-  echo "https://github.com/Bercik1337/rt-auto-install/issues"
-  
-  exit 1
-fi
-}
-
-
 #detecting os
 function DETECTOS {
 echo "${PURPLE}Detecting Operating System" 
@@ -544,7 +529,7 @@ function INSTALL_RTORRENT_APT_R98 {
 function INSTALL_SCGI {
 
 	echo "${CYAN}Download scgi${NORMAL}"
-	wget http://mirrors.kernel.org/ubuntu/pool/universe/s/scgi/libapache2-mod-scgi_1.13-1.1build1_amd64.deb
+	wget http://ftp.de.debian.org/debian/pool/main/s/scgi/libapache2-mod-scgi_1.13-1.1_arm64.deb
 	echo "${CYAN}Install scgi${NORMAL}"
 	dpkg -i libapache2*.deb
 	CHECKLASTRC
