@@ -63,7 +63,7 @@ Installation
 
 Run the script with sudo or as root
 	
-	git clone https://github.com/Denkai/rt-auto-install.git
+	git clone https://github.com/Denkai01/rt-auto-install.git
 	cd rt-auto-install
 	sudo ./Rt-Install-minimal
 	
