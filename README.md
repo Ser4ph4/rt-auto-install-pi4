@@ -6,13 +6,13 @@
 
 ![Logo](https://i.imgur.com/KtvJriL.jpg)
 
+Made Adjustments for use on ARM archtiecture devices.
+
 ## News
 
-**Current version** v2.0 released 2024/03/10
+**Current version** v2.0 released 2024/03/17
 
-	Disabled support for non x86_64 systems (like ARM). More under #66
-	Added support for Ubuntu 23.10 (Mantic Minotaur)
-	Fixed chown warning
+This version is for ARM only
 
 For details, always go to Changelog.
 
@@ -26,31 +26,10 @@ For details, always go to Changelog.
 
 ## Supported operating systems ##
 
-* **Debian 12    Bookworm**
-* **Debian 11    Bullseye**
-* **Debian 10    Buster**
-* ~~Raspbian 10  Buster~~ 
-* **Ubuntu 23.10 Mantic Minotaur**
-* **Ubuntu 23.04 Lunar Lobster**
-* **Ubuntu 22.04 Jammy Jellyfish**
-* ~~Ubuntu 21.10 Impish Indri~~ 
-* ~~Ubuntu 21.04 Hirsute Hippo~~ 
-* ~~Ubuntu 20.10 Groovy Gorilla~~ 
-* **Ubuntu 20.04 Focal Fossa**
-* ~~Ubuntu 19.10 Eoan Ermine~~ 
-* ~~Ubuntu 19.04 Disco Dingo~~ 
-* ~~Ubuntu 18.10 Cosmic Cuttlefish~~ 
-* **Ubuntu 18.04 Bionic Beaver**
-* **Mint   21    Vanessa**
-* **Mint   20.3  Una**
-* **Mint   20.2  Uma**
-* **Mint   20.1  Ulyssa**
-* **Mint   20    Ulyana**
-* **Mint   19.3  Tricia**
-* **Mint   19.2  Tina**
-* **Mint   19.1  Tessa**
-* **Mint   19    Tara**
-* **LMDE   5     Elsie**
+
+* **Raspberry Pi OS 12 Bookworm**
+* **Raspberry Pi OS 11 Bullseye**
+* **Raspberry Pi OS 10 Buster**
 
 More to come, see TODO.
 
@@ -84,11 +63,11 @@ Installation
 
 Run the script with sudo or as root
 	
-	git clone https://github.com/Bercik1337/rt-auto-install.git
+	git clone https://github.com/Denkai01/rt-auto-install.git
 	cd rt-auto-install
 	sudo ./Rt-Install-minimal
 	
-	or now you can simply wget https://raw.githubusercontent.com/Bercik1337/rt-auto-install/master/Rt-Install-minimal
+	or now you can simply wget https://raw.githubusercontent.com/Denkai01/rt-auto-install/master/Rt-Install-minimal
 
 FAQ
 ------------

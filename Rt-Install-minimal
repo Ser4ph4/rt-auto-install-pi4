@@ -138,7 +138,6 @@ else
         exit 3
 fi
 }
-DETECTARCH
 DETECTOS
 
 #setup rT/libt/ruT version variables based on OS
@@ -363,7 +362,8 @@ clear
 function APT_DEPENDENCIES {
 echo "${CYAN}Installing dependencies${NORMAL}"
 	apt-get update
-	apt-get -y install openssl git apache2 apache2-utils libapache2-mod-scgi unrar-free sox ffmpeg\
+
+	apt-get -y install openssl git apache2 apache2-utils libapache2-mod-scgi unrar-free sox ffmpeg \
 	php php-curl php-cli libapache2-mod-php tmux unzip curl mediainfo
 	CHECKLASTRC
 }
