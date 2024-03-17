@@ -10,11 +10,9 @@ Made Adjustments for use on ARM archtiecture devices.
 
 ## News
 
-**Current version** v2.0 released 2024/03/10
+**Current version** v2.0 released 2024/03/17
 
-	Disabled support for non x86_64 systems (like ARM). More under #66
-	Added support for Ubuntu 23.10 (Mantic Minotaur)
-	Fixed chown warning
+This version is for ARM only
 
 For details, always go to Changelog.
 
