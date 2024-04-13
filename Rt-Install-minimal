@@ -544,7 +544,7 @@ function INSTALL_RUTORRENT {
 	# Installing rutorrent.
 	echo "${CYAN}Installing rutorrent${NORMAL}"
 	echo "${YELLOW}Downloading package${NORMAL}"
-	curl -L https://github.com/Novik/ruTorrent/archive/refs/tags/v4.2.6.zip -o rutorrent.zip
+	curl -L https://github.com/Novik/ruTorrent/archive/refs/tags/v4.3.0.zip -o rutorrent.zip
 	CHECKLASTRC
 	echo "${YELLOW}Unpacking${NORMAL}"
 	unzip -qq rutorrent.zip
